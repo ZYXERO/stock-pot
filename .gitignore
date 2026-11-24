@@ -16,3 +16,7 @@ node_modules/
 
 # data (too big for git, re-downloadable)
 backend/data/raw/
+
+# editor / tooling
+.mypy_cache/
+.vscode/
