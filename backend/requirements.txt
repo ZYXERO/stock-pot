@@ -1,0 +1,9 @@
+# Phase 1: data ingestion
+pandas>=2.2
+psycopg[binary]>=3.2
+pydantic>=2.7
+pydantic-settings>=2.3
+
+# dev tools
+pytest>=8.0
+ruff>=0.5

@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+# camelCase is a deliberate project convention, so pep8-naming (N) rules stay off.
+select = ["E", "F", "I", "B", "UP"]
